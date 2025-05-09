@@ -3,10 +3,14 @@ API :
     name: api
     repository: habor.analytichpxv3.online/kubernetes-workshop/new-api
     tag: uat-2ec89bc
+  API_KEY : aaaaaaaaaaaa
 
 WEB :
   IMAGE :
     name: web
     repository: habor.analytichpxv3.online/kubernetes-workshop/new-ui
     tag: uat-2ec89bc
+  API_KEY : aaaaaaaaaaaa
+
+ENV : dev
   

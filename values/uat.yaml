@@ -7,4 +7,6 @@ WEB :
   IMAGE :
     repository: habor.analytichpxv3.online/kubernetes-workshop/new-ui
     tag: uat-2ec89bc
+
+ENV : uat
   

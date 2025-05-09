@@ -8,6 +8,6 @@ WEB:
   IMAGE:
     name: web
     repository: habor.analytichpxv3.online/kubernetes-workshop/new-ui
-    tag: uat-2ec89bc
+    tag: dev-e6a9d14
   API_KEY: aaaaaaaaaaaa
 ENV: dev

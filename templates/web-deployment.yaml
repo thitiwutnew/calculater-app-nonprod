@@ -10,8 +10,6 @@ metadata:
   labels:
     app: {{ print $namespace "-web" }}
   name: {{ print $namespace "-web" }}
-  annotation:
-    reloader.stakater.com/reload: "true"
 spec:
   replicas: 1
   selector:

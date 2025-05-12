@@ -27,4 +27,8 @@ spec:
       - image: {{ $image }}:{{ $tag }}
         name: {{ $name }}
         resources: {}
+        envFrom:
+        - configMapRef:
+            name: api-env
+        
 status: {}

@@ -10,6 +10,8 @@ metadata:
   labels:
     app: {{ print $namespace "-api" }}
   name: {{ print $namespace "-api" }}
+  annotations:
+    reloader.stakater.com/auto: "true"
 spec:
   replicas: 1
   selector:

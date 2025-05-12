@@ -2,7 +2,7 @@ API:
   IMAGE:
     name: api
     repository: habor.analytichpxv3.online/kubernetes-workshop/new-api
-    tag: dev-da06ca5
+    tag: dev-e240a62
   API_KEY: aaaaaaaaaaaa
 WEB:
   IMAGE:
